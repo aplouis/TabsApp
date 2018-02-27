@@ -324,7 +324,6 @@ public class MainActivity extends BaseActivity {
             //imgDownloader.loadBitmapPath(getArguments().getString(ARG_IMG_PATH), ivPageImg);
             Bitmap mBM = ImageDownloaderCache.decodeSampledBitmapFromPath(getArguments().getString(ARG_IMG_PATH), ImageDownloaderCache.maxImageSize, ImageDownloaderCache.maxImageSize);
             ivPageImg.setImageBitmap(mBM);
-            
             return rootView;
         }
 
